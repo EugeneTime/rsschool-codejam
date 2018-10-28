@@ -25,5 +25,3 @@ function make(a) {
 function sum(a, b) {
     return a + b;
 }
-
-make(15)(34, 21, 666)(41)(sum);
