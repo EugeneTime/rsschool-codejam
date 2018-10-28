@@ -21,7 +21,3 @@ function make(a) {
 
     return accumulate;
 }
-
-function sum(a, b) {
-    return a + b;
-}

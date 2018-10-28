@@ -1,4 +1,4 @@
-function sumOfOther (sample) {
+module.exports = function sumOfOther (sample) {
     const ItemLength = sample.length;
     let result = [];
 
