@@ -1,4 +1,4 @@
-function make(a) { 
+module.exports = function make(a) { 
     let sumItems = 0; 
     let arrCount = [a];
     

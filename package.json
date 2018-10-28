@@ -2,9 +2,17 @@
   "name": "rsschool-codejam",
   "version": "1.0.0",
   "description": "RSS CodeJam",
-  "main": "index.js",
+  "main": "make.js",
+  "dependencies": {
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "mocha": "^5.2.0"
+  },
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,8 +23,5 @@
   "bugs": {
     "url": "https://github.com/EugeneTime/rsschool-codejam/issues"
   },
-  "homepage": "https://github.com/EugeneTime/rsschool-codejam#readme",
-  "dependencies": {
-    "mocha": "^5.2.0"
-  }
+  "homepage": "https://github.com/EugeneTime/rsschool-codejam#readme"
 }
